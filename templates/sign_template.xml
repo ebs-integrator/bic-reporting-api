@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:sign="http://sign.server.procertum.unizeto/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <sign:requestSignXAdES>
+            <certificate>$private_key</certificate>
+            <contentType>application/octet-stream</contentType>
+            <data>$dat</data>
+            <signatureType>ENVELOPING</signatureType>
+        </sign:requestSignXAdES>
+    </soapenv:Body>
+</soapenv:Envelope>

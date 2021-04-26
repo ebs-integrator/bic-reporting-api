@@ -1,0 +1,626 @@
+.creditReportCellDataSmall
+{
+	background-color: white;
+   FONT-SIZE: 8pt;
+	BORDER-RIGHT: 1px solid lightgrey;
+	BORDER-BOTTOM: 1px solid lightgrey;
+}
+
+.creditReportCellHeaderSmallWhite
+{
+	background-color: white;
+   FONT-WEIGHT: bold;
+   FONT-SIZE: 8pt;
+	BORDER-RIGHT: 1px solid lightgrey;
+	BORDER-BOTTOM: 1px solid lightgrey;
+}
+
+.creditReportCellHeaderSmall
+{
+   TEXT-ALIGN: center;
+   FONT-WEIGHT: bold;
+   COLOR: #000000;
+   BACKGROUND-COLOR: #D3D3D3;
+   FONT-SIZE: 8pt;
+   BACKGROUND-COLOR: #D3D3D3;
+	BORDER-LEFT: 1px solid #FFFFFF;
+	BORDER-BOTTOM: 1px solid #FFFFFF;
+	BORDER-TOP: 1px solid #FFFFFF;
+}
+
+.PrjTreeControlFolderItem
+{
+}
+.Calendar
+{
+	POSITION: absolute;
+	VISIBILITY: hidden;
+	background-color: #CCCCCC;
+	Z-INDEX: 2
+}
+
+.ColumnLabelReport
+{
+
+    FONT-WEIGHT: bold;
+    FONT-SIZE: larger;
+    COLOR: #FFFFFF;
+    BACKGROUND-COLOR: #0F0F4E
+
+}
+
+.TopBarTitle
+{
+    COLOR: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.LeftText
+{
+    COLOR: #0000ff;
+    TEXT-ALIGN: left
+}
+.LinkLabel
+{
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left
+}
+.mandatoryField { font-size: 10px; font-weight: normal; color: #FF0000 }
+.mandatoryFieldHighlight { color: #FF0000 }
+.warning     { font-size: 10pt; color: #000080; font-weight: bold; text-align: Center }
+.interfaceLabel { color: #0000FF; font-size: 14pt; font-style: italic; font-weight: bold }
+.tableRowOdd { background-color: #ffffee}
+.tableRowEven { background-color: #ffffee}
+.tableRowRollOn { background-color: #fafad5}
+.DictLinkLabel
+{
+    FONT-SIZE: 12pt;
+    COLOR: darkblue;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left
+}
+
+.PageTitle
+{
+    FONT-SIZE: 13pt;
+    COLOR: darkblue;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left
+}
+
+.SubTitleCenter
+{
+    FONT-WEIGHT: bold;
+    COLOR: darkblue;
+    TEXT-ALIGN: center
+}
+.NormalText  
+{ 
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+.InputText
+{
+    COLOR: darkblue
+}
+.SelectLabel
+{
+    COLOR: darkblue
+}
+.ButtonLabel
+{
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center
+}
+.TableHeader
+{
+    FONT-WEIGHT: bold;
+    COLOR: #666666;
+    TEXT-ALIGN: center
+}
+.TableHeaderForPrint
+{
+    FONT-WEIGHT: bold;
+    COLOR: #FFFFFF;
+    TEXT-ALIGN: center;
+    BACKGROUND-COLOR: #000000
+}
+.TableHeaderForPrint1
+{
+    FONT-WEIGHT: bold;
+    COLOR: #FFFFFF;
+    TEXT-ALIGN: right;
+    BACKGROUND-COLOR: #000000
+}
+.TableCellForPrint
+{
+	border-top:1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; color: #333333
+}
+.TableCellForPrint2
+{
+    FONT-WEIGHT: bold;
+	border-top:1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; color: #333333
+}
+.TableCellForPrint1
+{
+	border-top:1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; color: #333333
+}
+.TableForPrint
+{
+	border-bottom:1px solid black;
+}
+.tableHeaderLeft
+{
+    FONT-WEIGHT: bold;
+    COLOR: #666666;
+    TEXT-ALIGN: left
+}
+.ColumnText
+{
+    FONT-SIZE: 8pt
+}
+
+.creditReportSubTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #000080;
+    BACKGROUND-COLOR: #FFDD66;
+}
+
+.SubTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: larger;
+    COLOR: #000080;
+    BACKGROUND-COLOR: #cccccc
+}
+.Head
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: larger;
+    COLOR: #000080;
+}
+
+.SubSubTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11;
+    COLOR: #000080;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.ColumnLabel
+{
+    COLOR: #0000ff;
+    TEXT-ALIGN: right
+}
+TD
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+TH
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+P
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+H1
+{
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+H2
+{
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pNoSpace
+{
+    BORDER-TOP-WIDTH: 0px;
+    MARGIN-TOP: 0px;
+    BORDER-BOTTOM-WIDTH: 0px;
+    MARGIN-BOTTOM: 0px
+}
+.pLoSpace
+{
+    BORDER-TOP-WIDTH: 0px;
+    MARGIN-TOP: 10px;
+    BORDER-BOTTOM-WIDTH: 0px;
+    MARGIN-BOTTOM: 10px
+}
+DIV
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+INPUT
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+TEXTAREA
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+SELECT
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial
+}
+.keyField
+{
+    COLOR: #ff0000
+}
+.inactiveTabCaption
+{
+    BORDER-RIGHT: white 2px;
+    BORDER-TOP: white 2px solid;
+    BORDER-LEFT: white 2px;
+    COLOR: #848284;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: gray 2px solid;
+    BACKGROUND-COLOR: #ccccff
+}
+.activeTabCaption
+{
+    BORDER-RIGHT: #9999ff 2px solid;
+    BORDER-TOP: #9999ff 2px solid;
+    FONT-WEIGHT: bolder;
+    BORDER-LEFT: #9999ff 2px solid;
+    COLOR: #000000;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #9999ff 2px solid;
+    BACKGROUND-COLOR: #9999ff
+}
+.hoverTabCaption
+{
+    BORDER-RIGHT: #ffffff 2px;
+    BORDER-TOP: #ffffff 2px solid;
+    FONT-WEIGHT: bolder;
+    BORDER-LEFT: #ffffff 2px;
+    CURSOR: hand;
+    COLOR: #848284;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #999999 2px solid;
+    BACKGROUND-COLOR: #ccccff
+}
+.tabPage
+{
+    BORDER-RIGHT: #6666cc 3px solid;
+    BORDER-TOP: #9999ff 5px solid;
+    BORDER-LEFT: #9999ff 3px solid;
+    BORDER-BOTTOM: #6666cc 5px solid
+}
+.tabCanvas
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none
+}
+.queryField
+{
+    BACKGROUND-COLOR: #e6e6ff
+}
+H3
+{
+    FONT-WEIGHT: bold;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pUpNoDnLoSpace
+{
+    BORDER-TOP-WIDTH: 0px;
+    BORDER-BOTTOM-WIDTH: 0px;
+    MARGIN-BOTTOM: 10px
+}
+.tableHeading
+{
+    COLOR: #007777
+}
+A
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Tahoma, Arial, "MS Sans Serif"
+}
+.PrjTreeControlFolderItem
+{
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR: #0F0FA0;
+    TEXT-DECORATION: underline
+}
+.PrjTreeControlFolderItemHilite
+{
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR: #880000;
+    TEXT-DECORATION: underline
+}
+.sidebarLinkNormal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR:	#0F0F4E;
+    TEXT-DECORATION: underline
+}
+.sidebarLinkHilite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR:	#FFFFFF;
+    BACKGROUND-COLOR: #0F0F4E;
+    TEXT-DECORATION: underline
+}
+.menuLinkNormal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #FFFFFF;
+    CURSOR: hand;
+    TEXT-DECORATION: underline
+}
+.menuLinkHilite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    COLOR: #0F0F4E;
+    CURSOR: hand;
+    BACKGROUND-COLOR: #FFFFFF;
+    TEXT-DECORATION: underline
+}
+.helpLinkNormal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR: #ff0000;
+    TEXT-DECORATION: underline
+}
+.helpLinkHilite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR: #0F0F4E;
+    BACKGROUND-COLOR: #FFFFFF;
+    TEXT-DECORATION: underline
+}
+.VerticalTitle
+{
+    FONT-WEIGHT: bold;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: red;
+    TEXT-ALIGN: left
+}
+a.menuLink
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #FFFFFF;
+	CURSOR: hand;
+	TEXT-DECORATION: underline
+}
+a.menuLink:hover
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #0F0F4E;
+	CURSOR: hand;
+	BACKGROUND-COLOR: #FFFFFF;
+	TEXT-DECORATION: underline
+}
+a.helpLink{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR: #ff0000;
+    TEXT-DECORATION: underline
+}
+a.helpLink:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    CURSOR: hand;
+    COLOR: #0F0F4E;
+    BACKGROUND-COLOR: #FFFFFF;
+    TEXT-DECORATION: underline
+}
+.DiaSelector
+{
+	FONT-FAMILY: ArialCE;
+}
+.indicatorRowInactive
+{
+	background-color: #f9f9d9;
+}
+.indicatorCellInactive
+{
+	BORDER-TOP: #FFFFFF 2px solid
+}
+.indicatorRowSelected
+{
+	background-color: #FFFFF5
+}
+.indicatorGraphLabel 
+{  
+	font-size: x-small
+}
+
+.calendarCellHeader
+{
+	BORDER: 1px solid lightgrey;
+	text-align: center;
+	background-color: lightgrey
+}
+
+.calendarCellLeft
+{
+	BORDER: 1px solid lightgrey;
+	text-align: center;
+	background-color: lightgrey
+}
+
+.calendarCell
+{
+	BORDER: 1px solid lightgrey;
+	text-align: center;
+	background-color: white
+}
+
+.calendarCellDarkWave
+{
+	BORDER: 1px solid lightgrey;
+	text-align: center;
+	background-color: #F0F0F0
+}
+
+.creditReportHeadBlack
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+}
+
+.creditReportContentBlack
+{
+    FONT-SIZE: 10pt;
+}
+
+.creditReportHeadBlackSmall
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 7pt;
+}
+
+.creditReportNormalBlackSmall
+{
+    FONT-SIZE: 7pt;
+}
+
+.creditReportHeadBlack1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+}
+
+.creditReportHeadBlack2
+{
+    FONT-STYLE: italic;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+}
+
+.creditReportFoundBy
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BACKGROUND-COLOR: #C7DCE0;
+    COLOR: #0000FF
+}
+
+.creditReportNotFoundBy
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BACKGROUND-COLOR: #FFD5D6;
+    COLOR: #A60004
+}
+
+.alertFont
+{
+	FONT-SIZE: 8pt;
+	COLOR: red
+}
+
+.anexaTitle
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: Times New Roman;
+}
+
+.creditReportCell
+{
+	BORDER-LEFT: 1px solid lightgrey;
+	BORDER-RIGHT: 1px solid lightgrey;
+	background-color: white;
+    FONT-SIZE: 8pt;
+}
+
+.creditReportCellData
+{
+	background-color: white;
+    FONT-SIZE: 10pt;
+}
+
+.creditReportCellData8
+{
+	background-color: white;
+    FONT-SIZE: 8pt;
+}
+
+.creditReportCellData7
+{
+	background-color: white;
+    FONT-SIZE: 7pt;
+}
+
+.creditReportCellHeader
+{
+	BORDER: 1px solid lightgrey;
+	background-color: lightgrey;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 7pt;
+}
+
+.creditReportCellHeader6
+{
+    FONT-SIZE: 6pt;
+}
+
+.creditReportCellLeft
+{
+	BORDER-LEFT: 1px solid lightgrey;
+	BORDER-RIGHT: 1px solid lightgrey;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+}
+
+.creditReportCellBottom
+{
+	BORDER-LEFT: 1px solid lightgrey;
+	BORDER-RIGHT: 1px solid lightgrey;
+	BORDER-Bottom: 1px solid lightgrey;
+	background-color: white;
+    FONT-SIZE: 10pt;
+}
+.creditReportCellBottom8
+{
+	BORDER-LEFT: 1px solid lightgrey;
+	BORDER-RIGHT: 1px solid lightgrey;
+	BORDER-Bottom: 1px solid lightgrey;
+	background-color: white;
+    FONT-SIZE: 8pt;
+}
+
+.PortletHeaderText
+{
+	bgcolor: #909050;
+	COLOR: white;
+	
+}

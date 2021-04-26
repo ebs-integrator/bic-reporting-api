@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  reporting-api:
+    stdin_open: true
+    command: bash docker-startup.sh
+    tty: true
+    image: IMAGE_TAG
+    ports:
+      - 3410:80/tcp
+    volumes:
+      - templates:/usr/app/templates/
+      - privates:/usr/app/privates/
+      - certificates:/usr/app/certificates/
+      - storage:/usr/app/storage/

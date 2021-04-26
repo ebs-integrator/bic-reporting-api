@@ -1,0 +1,43 @@
+# GENERAL
+.idea/
+.coverage
+*.pyc
+static/*
+exports/*
+contracts/*
+
+# EXCEPTIONS
+!static/css/contract/styles.css
+!static/images/header.jpg
+!static/images/header_landscape.jpg
+
+# DJANGO
+django.db
+
+# ENV
+venv/
+
+# CELERY
+celerybeat-schedule.db
+celerybeat.pid
+
+# DOCKER
+docker/cli.json
+docker/rancher
+docker/docker-compose.tmp.yaml
+
+# ENV
+.env
+.env.production
+.env.development
+
+# Other
+requirements.txt
+*.pdf
+db.sqlite3
+*.log
+!storage/*.log
+!storage/media/*
+!storage/companies/*
+*.html
+certificates/*.pem

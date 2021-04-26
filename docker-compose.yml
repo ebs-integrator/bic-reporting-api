@@ -1,0 +1,29 @@
+version: '2.1'
+
+services:
+  reporting-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    command: bash docker-startup.sh
+    tty: true
+    env_file:
+      - .env
+    ports:
+      - 3410:80/tcp
+    volumes:
+      - /usr/app/templates/
+      - /usr/app/privates/
+      - /usr/app/certificates/
+      - /usr/app/storage/
+    networks:
+      - app-network
+      - api-network
+
+# Docker Networks
+networks:
+  app-network:
+    driver: bridge
+  api-network:
+    external: true

@@ -1,0 +1,604 @@
+.creditReportCellDataSmall {
+	background-color: white;
+	font-size: 7pt;
+        white-space: nowrap;
+	border: 1px solid #777;
+	padding: 2px;
+}
+
+.creditReportCellDataSmall.wrapped {
+	white-space: normal;
+	min-width: 100px;
+}
+.creditReportCellHeaderSmallWhite {
+	background-color: white;
+	font-weight: bold;
+	font-size: 7pt;
+	border-right: 1px solid #777;
+	border-bottom: 1px solid #777;
+}
+.creditReportCellHeaderSmall {
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	background-color: #D3D3D3;
+	font-size: 7pt;
+	border: 1px solid #777;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.PrjTreeControlFolderItem {
+}
+.Calendar {
+	position: absolute;
+	visibility: hidden;
+	background-color: #CCCCCC;
+	z-index: 2
+}
+
+.ColumnLabelReport {
+
+	font-weight: bold;
+	font-size: larger;
+	color: #FFFFFF;
+	background-color: #0F0F4E
+
+}
+.creditReportBlackNormal {
+    padding-left: 4px;
+}
+.TopBarTitle {
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.LeftText {
+	color: #0000ff;
+	text-align: left
+}
+.LinkLabel {
+	font-weight: bold;
+	text-align: left
+}
+.mandatoryField {
+	font-size: 10px; font-weight: normal; color: #FF0000
+}
+.mandatoryFieldHighlight {
+	color: #FF0000
+}
+.warning	 {
+	font-size: 8pt; color: #000080; font-weight: bold; text-align: Center
+}
+.interfaceLabel {
+	color: #0000FF; font-size: 14pt; font-style: italic; font-weight: bold
+}
+.tableRowOdd {
+	background-color: #ffffee
+}
+.tableRowEven {
+	background-color: #ffffee
+}
+.tableRowRollOn {
+	background-color: #fafad5
+}
+.DictLinkLabel {
+	font-size: 12pt;
+	color: darkblue;
+	font-weight: bold;
+	text-align: left
+}
+
+.PageTitle {
+	font-size: 13pt;
+	color: darkblue;
+	font-weight: bold;
+	text-align: left
+}
+
+.SubTitleCenter {
+	font-weight: bold;
+	color: darkblue;
+	text-align: center
+}
+.NormalText	{
+	
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+.InputText {
+	color: darkblue
+}
+.SelectLabel {
+	color: darkblue
+}
+.ButtonLabel {
+	font-weight: bold;
+	text-align: center
+}
+.TableHeader {
+	font-weight: bold;
+	color: #666666;
+	text-align: center
+}
+.TableHeaderForPrint {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #000000
+}
+.TableHeaderForPrint1 {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: right;
+	background-color: #000000
+}
+.TableCellForPrint {
+	border-top:1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; color: #333333
+}
+.TableCellForPrint2 {
+	font-weight: bold;
+	border-top:1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px; color: #333333
+}
+.TableCellForPrint1 {
+	border-top:1px solid black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; color: #333333
+}
+.TableForPrint {
+	border-bottom:1px solid black;
+}
+.tableHeaderLeft {
+	font-weight: bold;
+	color: #666666;
+	text-align: left
+}
+.ColumnText {
+	font-size: 8pt
+}
+
+.SubTitle {
+	font-weight: bold;
+	font-size: larger;
+	color: #000080;
+	background-color: #cccccc
+}
+.Head {
+	font-weight: bold;
+	font-size: larger;
+	color: #000080;
+}
+
+.SubSubTitle {
+	font-weight: bold;
+	font-size: 11;
+	color: #000080;
+	background-color: #cccccc
+}
+
+.ColumnLabel {
+	color: #0000ff;
+	text-align: right
+}
+TD {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+TH {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+P {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+H1 {
+	font-weight: bold;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: underline
+}
+H2 {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pNoSpace {
+	border-top-WIDTH: 0px;
+	MARGIN-TOP: 0px;
+	border-bottom-WIDTH: 0px;
+	MARGIN-BOTTOM: 0px
+}
+.pLoSpace {
+	border-top-WIDTH: 0px;
+	MARGIN-TOP: 10px;
+	border-bottom-WIDTH: 0px;
+	MARGIN-BOTTOM: 10px
+}
+DIV {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+INPUT {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+TEXTAREA {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+SELECT {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial
+}
+.keyField {
+	color: #ff0000
+}
+.inactiveTabCaption {
+	border-right: white 2px;
+	border-top: white 2px solid;
+	border-left: white 2px;
+	color: #848284;
+	PADDING-TOP: 2px;
+	border-bottom: gray 2px solid;
+	background-color: #ccccff
+}
+.activeTabCaption {
+	border-right: #9999ff 2px solid;
+	border-top: #9999ff 2px solid;
+	font-weight: bolder;
+	border-left: #9999ff 2px solid;
+	color: #000000;
+	PADDING-TOP: 2px;
+	border-bottom: #9999ff 2px solid;
+	background-color: #9999ff
+}
+.hoverTabCaption {
+	border-right: #ffffff 2px;
+	border-top: #ffffff 2px solid;
+	font-weight: bolder;
+	border-left: #ffffff 2px;
+	CURSOR: hand;
+	color: #848284;
+	PADDING-TOP: 2px;
+	border-bottom: #999999 2px solid;
+	background-color: #ccccff
+}
+.tabPage {
+	border-right: #6666cc 3px solid;
+	border-top: #9999ff 5px solid;
+	border-left: #9999ff 3px solid;
+	border-bottom: #6666cc 5px solid
+}
+.tabCanvas {
+	border-right: medium none;
+	border-top: medium none;
+	border-left: medium none;
+	border-bottom: medium none
+}
+.queryField {
+	background-color: #e6e6ff
+}
+H3 {
+	font-weight: bold;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pUpNoDnLoSpace {
+	border-top-WIDTH: 0px;
+	border-bottom-WIDTH: 0px;
+	MARGIN-BOTTOM: 10px
+}
+.tableHeading {
+	color: #007777
+}
+A {
+	font-size: 8pt;
+	FONT-FAMILY: Tahoma, Arial, "MS Sans Serif"
+}
+.PrjTreeControlFolderItem {
+	font-size: 8pt;
+	CURSOR: hand;
+	color: #0F0FA0;
+	TEXT-DECORATION: underline
+}
+.PrjTreeControlFolderItemHilite {
+	font-size: 8pt;
+	CURSOR: hand;
+	color: #880000;
+	TEXT-DECORATION: underline
+}
+.sidebarLinkNormal {
+	font-weight: bold;
+	font-size: 8pt;
+	CURSOR: hand;
+	color:	#0F0F4E;
+	TEXT-DECORATION: underline
+}
+.sidebarLinkHilite {
+	font-weight: bold;
+	font-size: 8pt;
+	CURSOR: hand;
+	color:	#FFFFFF;
+	background-color: #0F0F4E;
+	TEXT-DECORATION: underline
+}
+.menuLinkNormal {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #FFFFFF;
+	CURSOR: hand;
+	TEXT-DECORATION: underline
+}
+.menuLinkHilite {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #0F0F4E;
+	CURSOR: hand;
+	background-color: #FFFFFF;
+	TEXT-DECORATION: underline
+}
+.helpLinkNormal {
+	font-weight: bold;
+	font-size: 8pt;
+	CURSOR: hand;
+	color: #ff0000;
+	TEXT-DECORATION: underline
+}
+.helpLinkHilite {
+	font-weight: bold;
+	font-size: 8pt;
+	CURSOR: hand;
+	color: #0F0F4E;
+	background-color: #FFFFFF;
+	TEXT-DECORATION: underline
+}
+.VerticalTitle {
+	font-weight: bold;
+	TEXT-TRANSFORM: uppercase;
+	color: red;
+	text-align: left
+}
+a.menuLink {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #FFFFFF;
+	CURSOR: hand;
+	TEXT-DECORATION: underline
+}
+a.menuLink:hover {
+	font-weight: bold;
+	font-size: 8pt;
+	color: #0F0F4E;
+	CURSOR: hand;
+	background-color: #FFFFFF;
+	TEXT-DECORATION: underline
+}
+a.helpLink{
+	font-weight: bold;
+	font-size: 8pt;
+	CURSOR: hand;
+	color: #ff0000;
+	TEXT-DECORATION: underline
+}
+a.helpLink:hover {
+	font-weight: bold;
+	font-size: 8pt;
+	CURSOR: hand;
+	color: #0F0F4E;
+	background-color: #FFFFFF;
+	TEXT-DECORATION: underline
+}
+.DiaSelector {
+	FONT-FAMILY: ArialCE;
+}
+.indicatorRowInactive {
+	background-color: #f9f9d9;
+}
+.indicatorCellInactive {
+	border-top: #FFFFFF 2px solid
+}
+.indicatorRowSelected {
+	background-color: #FFFFF5
+}
+.indicatorGraphLabel  {
+	 
+	font-size: x-small
+}
+
+.calendarCellHeader {
+	BORDER: 1px solid #777;
+	text-align: center;
+	background-color: #D3D3D3
+}
+
+.calendarCellLeft {
+	BORDER: 1px solid #777;
+	text-align: center;
+	background-color: #D3D3D3
+}
+
+.calendarCell {
+	BORDER: 1px solid #777;
+	text-align: center;
+	background-color: white
+}
+
+.calendarCellDarkWave {
+	BORDER: 1px solid #777;
+	text-align: center;
+	background-color: #F0F0F0
+}
+
+.creditReportHeadBlack {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.creditReportHeadBlack0 {
+	font-weight: bold;
+	font-size: 16pt;
+	color: #0000CC;
+}
+
+.creditReportHeadBlackSmall {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.creditReportNormalBlackSmall {
+	font-size: 8pt;
+	padding-left: 2px;
+}
+
+.creditReportHeadBlack1 {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.creditReportHeadBlack2 {
+	FONT-STYLE: italic;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.creditReportFoundBy {
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #C7DCE0;
+	color: #0000FF
+}
+
+.creditReportNotFoundBy {
+	font-weight: bold;
+	font-size: 9pt;
+	background-color: #FFD5D6;
+	color: #A60004
+}
+
+.alertFont {
+	font-size: 8pt;
+	color: red
+}
+
+.anexaTitle {
+	font-weight: bold;
+	font-size: 12pt;
+	FONT-FAMILY: Times New Roman;
+}
+
+.creditReportCell {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	background-color: white;
+	font-size: 8pt;
+}
+
+.creditReportCellData {
+	background-color: white;
+	font-size: 8pt;
+}
+
+.creditReportCellData8 {
+	background-color: white;
+	font-size: 8pt;
+}
+
+.creditReportCellData7 {
+	background-color: white;
+	font-size: 7pt;
+}
+
+.creditReportCellHeader {
+	border: 1px solid #777;
+	background-color: #D3D3D3;
+	font-weight: bold;
+	font-size: 7pt;
+}
+
+.creditReportCellHeader6 {
+	font-size: 6pt;
+}
+
+.creditReportCellLeft {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.creditReportCellBottom {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	border-bottom: 1px solid #777;
+	background-color: white;
+	font-size: 8pt;
+}
+.creditReportCellBottom8 {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	border-bottom: 1px solid #777;
+	background-color: white;
+	font-size: 8pt;
+}
+
+.PortletHeaderText {
+	bgcolor: #909050;
+	color: white;
+	
+}
+.translationTR {
+	display:none;
+	background-color:navajowhite;
+}
+.tableType1 {
+    width: 80%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.tableType1 td {
+    padding: 2px;
+    width: auto;
+}
+
+td.row-separator {
+    height: 80px;
+    page-break-after: always;
+    page-break-inside: avoid;
+
+}
+@media print
+{
+    td.row-separator {
+        height: 150px;
+	page-break-after: always;
+        page-break-inside: avoid;
+    }
+    td.row-separator2 {
+        height: 40px;
+	page-break-after: always;
+        page-break-inside: avoid;
+    }
+
+
+}
+.bnsreport tr td {
+    padding-top: 6px;
+    vertical-align: top;
+}
+.td-8 {
+    width: 66.66666667%;
+}
+
+.td-4 {
+    width: 33.33333333%;
+}
+
+fld {
+    display: block;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}

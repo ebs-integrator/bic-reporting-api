@@ -1,0 +1,53 @@
+stages:
+  - build
+  - release
+  - deploy
+
+services:
+  - docker:dind
+
+variables:
+  DOCKER_TLS_CERTDIR: ""
+  DOCKER_DRIVER: overlay2
+  DOCKER_IMAGE_TAG: "$VERSION.$CI_PIPELINE_IID$envVersTag"
+
+before_script:
+  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+
+building:
+  stage: build
+  environment: $CI_COMMIT_REF_NAME
+  image:
+    name: docker:18-git
+  only:
+    refs:
+      - development
+
+  script:
+    - echo "  === $CI_PROJECT_NAME - Build Dockerfile ===  "
+    - echo $APP_ENV
+    - cp $APP_ENV .env ; ls -la; cat .env
+    - docker build -t "$CI_REGISTRY/$CI_PROJECT_PATH:$DOCKER_IMAGE_TAG" .
+    - docker images
+    - docker tag $CI_REGISTRY/$CI_PROJECT_PATH:$DOCKER_IMAGE_TAG $CI_REGISTRY/$CI_PROJECT_PATH:latest
+    - docker images
+    - echo " ===  $CI_PROJECT_NAME - Push images  === "
+    - docker push $CI_REGISTRY/$CI_PROJECT_PATH:$DOCKER_IMAGE_TAG
+    - docker push $CI_REGISTRY/$CI_PROJECT_PATH:latest
+
+deploying:
+  stage: deploy
+  environment: $CI_COMMIT_REF_NAME
+  image:
+    name: docker:18-git
+  only:
+    refs:
+      - development
+
+  before_script:
+    - echo " DOCKER_IMAGE_TAG - $DOCKER_IMAGE_TAG "
+  script:
+    - echo " ===  $CI_PROJECT_NAME - Prepare deploying  === "
+    - wget https://github.com/rancher/cli/releases/download/v0.6.13/rancher-linux-amd64-v0.6.13.tar.gz && tar -zxvf rancher-linux-amd64-v0.6.13.tar.gz
+    - sed -i 's|IMAGE_TAG|"$CI_REGISTRY/$CI_PROJECT_PATH:$DOCKER_IMAGE_TAG"|g'  $DOCKER_COMPOSE_FILE
+    - ./rancher-v0.6.13/rancher -f $DOCKER_COMPOSE_FILE up -s $RANCHER_STACK_NAME --upgrade -d
