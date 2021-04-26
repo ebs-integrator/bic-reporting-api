@@ -3,6 +3,21 @@
 
 BIC (Biroul Istoriilor de Credit) `bicr.md` Reporting API Implementation
 
+## Process
+
+1. Generate BIC XML
+2. Sign XML at itsec.md
+3. Receive signed XML
+4. Send xml & signature to BIC to receive company report
+
+Understanding logic , core
+```sh
+applications/reports/process
+
+Check ProcessService for better understanding
+applications/reports/process/__init__.py
+```
+
 ## Requirements
 
 1. Python 3.8
